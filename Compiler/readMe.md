@@ -100,11 +100,23 @@ grammar里不同功能函数的分词器都在这个功能里调用。
 识别分词列表内的内容，调用myParser内生成相应报文的指令。
 
 **equation()**
+
+
 **addIdentifier()**
+
+
 **subsIdentifier()**
+
+
 **multiIdentifier()**
+
+
 **diviIdentifier()**
+
+
 **start()**
+
+
 **end()**
 
 
