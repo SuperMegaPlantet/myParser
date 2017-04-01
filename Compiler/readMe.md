@@ -1,4 +1,4 @@
-#### demo2.py ####
+## demo2.py ##
 
 
 **tokennizer()**
@@ -42,8 +42,8 @@ grammar里不同功能函数的分词器都在这个功能里调用。
 ```
 ['0xA1000000002550255','0xA50x01A000000002550255',...]
 ```
-========================
-#### myParser/newOperation.py ####
+
+## myParser/newOperation.py ##
 
 **fourBit()**
 
@@ -63,9 +63,13 @@ grammar里不同功能函数的分词器都在这个功能里调用。
 **division()**
 
 输入算式，输出报文。
+
+
 会考虑变量和数值做运算的四种情况。内容略重复。
-======================
-#### /myParser/variable.py####
+
+
+
+## /myParser/variable.py##
 
 **setVariableValue()**
 
@@ -73,8 +77,7 @@ grammar里不同功能函数的分词器都在这个功能里调用。
 内容和四则运算相同
 
 
-======================
-#### tokenizer.py ####
+## tokenizer.py ##
 
 **tokenizer()**
 遍历输入代码的每一行。分别放到grammar里的不同功能函数分词器，输出的分词结果存到列表里。此时未按原文顺序排序。
@@ -88,9 +91,9 @@ grammar里不同功能函数的分词器都在这个功能里调用。
 
 对未排序的分词列表进行排序，同时把相应的行号存入列表。
 
-=======================
 
-#### identifier.py ####
+
+## identifier.py ##
 
 **identifier()**
 
