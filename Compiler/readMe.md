@@ -106,4 +106,6 @@ grammar里不同功能函数的分词器都在这个功能里调用。
 **diviIdentifier()**
 **start()**
 **end()**
+
+
 和myParser内报文生成的指令一一对应，拿分词内的关键词填写报文
